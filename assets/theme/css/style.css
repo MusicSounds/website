@@ -923,31 +923,3 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
-
-.page {
-  overflow:hidden;
-}
-
-.section-content {
-  overflow:hidden;
-}
-
-.zone-content-wrapper {
-  overflow:hidden;
-}
-
-.region-content {
-  overflow:hidden;
-}
-
-.region-content-inner {
-  overflow:hidden;
-}
-
-.block-block-1 {
-  overflow:hidden;
-}
-
-.la-tekst {
-  overflow:hidden;
-}

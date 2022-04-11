@@ -730,7 +730,7 @@ html,
 body {
   height: auto;
   min-height: 100vh;
-  background-color: #23272a;
+  background-color: #2c2f33;
 }
 
 .dropup .dropdown-toggle::after {

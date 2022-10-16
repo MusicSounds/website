@@ -114,18 +114,6 @@
     </div>
 </section>
 
-<section class="video2 cid-srHhYfwosm-mid" id="video2-a">
-    <div class="container">
-        <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style mb-0 display-5"><strong>Send me a tip!</strong></h4>
-            <h5 class="mbr-section-subtitle mbr-fonts-style mb-0 mt-2 display-7">Only if you want to, of course.</h5>
-        </div>
-        <div class="row justify-content-center mt-4">
-            <iframe id="kofiframe" src="https://ko-fi.com/musicsounds/?hidefeed=true&widget=true&embed=true&preview=true" style="border:none;width:100%;padding:0px;background:none;" height="721" scrolling="no" allowtransparency="true" title="musicsounds"></iframe>
-        </div>
-    </div>
-</section>
-
 <section class="content11 cid-srHjIy0Rsz" id="content11-d">
     <div class="container">
         <div class="row justify-content-center">
@@ -170,7 +158,17 @@
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>
 <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
 <script src="assets/playervimeo/vimeo_player.js"></script>
-<script src="assets/theme/js/script.js"></script>  
+<script src="assets/theme/js/script.js"></script>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('musicsounds', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
 
 </body>
 </html>
